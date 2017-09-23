@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add prop-types
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/opt/android-sdk/tools/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/plan9/bin:/opt/android-sdk/tools:/opt/android-sdk/platform-tools
+
+Yarn version: 
+  1.0.2
+
+Node version: 
+  8.5.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "react-native-vertical-swiper",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:TemaKozyrev/react-native-vertical-swiper.git",
+    "author": "TemaKozyrev <tema@tema.ws>",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*",
+    },
+    "devDependencies": {
+      "eslint": "^3.13.1",
+      "eslint-config-airbnb": "^14.0.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^3.0.2",
+      "eslint-plugin-react": "^6.9.0",
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /home/artemyel/opensource/react-native-vertical-swiper/package.json: Unexpected token } in JSON at position 298
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:797:57
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:103:13
+      at <anonymous>
